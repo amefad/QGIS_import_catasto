@@ -6,6 +6,8 @@ Basato sul plugin per QGIS CXF_In di Fabio Saccon, un progetto per importare e g
 
 Ho apprezzato tantissimo il plugin CXF_in che consente di importare le geometrie dei file cxf in un layer in memoria
 
+http://plugins.qgis.org/plugins/Cxf_in/
+
 Quel che sto cercando di fare è espandere questo plugin in modo da gestire sia le geometrie in CXF che i dati alfanumerici del catasto in un unico database postgis. 
 I dati catastali censuari sono distribuiti in file di testo .FAB, .SOG, .TIT e sono collegabili alla cartografia tramite foglio e mappale.
 
