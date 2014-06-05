@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/plugins/imu_import">
+    <file>icon.png</file>
+    <file>import_icon.png</file>
+  </qresource>
+</RCC>
