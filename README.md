@@ -15,12 +15,13 @@ le specifiche dei dati censuari sono qui:
 http://wwwt.agenziaentrate.gov.it/mt/ServiziComuniIstituzioni/ES-23-IS-05_100909.pdf
 
 
-Molti hanno lavorato con il software Catsto_2000 che consentiva di importare i dati censuari in un database MS access, io ho preferito fare una struttura del DB ex-novo, che ricalca la struttura record presente nei file di testo creando una tabella per ciascun tipo record e sotto-record. (questo anceh perché non ho mai usato catasto 2000)
+Molti hanno lavorato con il software Catasto_2000 che consentiva di importare i dati censuari in un database MS access, io ho preferito fare una struttura del DB ex-novo, che ricalca la struttura record presente nei file di testo creando una tabella per ciascun tipo record e sotto-record. (questo anceh perché non ho mai usato catasto 2000)
 
 Uno script python crea un file di testo con i campi separati da "|"  per ogni tipo record, poi lo posso importare con COPY nella tabella corrispondente del database.
 
 
-Lo scopo di tutto e' calcolare agevolmente l'ICI/IMU dovuta sulle aree fabbricabili.
+Lo scopo di tutto e' calcolare agevolmente l'ICI/IMU/TASI (o quant'altro inventeranno) dovuta sulle aree fabbricabili.
+La possibilità di aggregare il risultato per aree consente anche di monetizzare l'impatto di una variante al piano regolatore
 
 
 
