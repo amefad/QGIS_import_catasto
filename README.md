@@ -16,7 +16,10 @@ Quel che sto cercando di fare è espandere questo plugin in modo da gestire sia 
 I dati catastali censuari sono distribuiti in file di testo .FAB, .SOG, .TIT e sono collegabili alla cartografia tramite foglio e mappale.
 
 le specifiche dei dati censuari sono qui: 
-http://wwwt.agenziaentrate.gov.it/mt/ServiziComuniIstituzioni/ES-23-IS-05_100909.pdf
+
+~~http://wwwt.agenziaentrate.gov.it/mt/ServiziComuniIstituzioni/ES-23-IS-05_100909.pdf~~
+
+https://agenziaentrate.gov.it/portale/documents/20143/266042/Tracciati_estrazioni_fabbricati_24012022.pdf
 
 
 Molti hanno lavorato con il software Catasto_2000 che consentiva di importare i dati censuari in un database MS access, io ho preferito fare una struttura del DB ex-novo, che ricalca la struttura record presente nei file di testo creando una tabella per ciascun tipo record e sotto-record. (questo anche perché non ho mai usato catasto 2000)
